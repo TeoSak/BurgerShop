@@ -1,0 +1,30 @@
+# Visual Studio
+**/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build
+**/bin/
+**/obj/
+
+# Environment / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local configuration
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# Node
+**/node_modules/
+**/dist/
+
+# Vercel
+**/.vercel/
+
+# OS
+.DS_Store
+Thumbs.db

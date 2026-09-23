@@ -1,0 +1,26 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+appsettings.Development.json
+appsettings.Local.json
+
+# User-specific files
+*.userprefs
+
+# OS
+.DS_Store
+Thumbs.db

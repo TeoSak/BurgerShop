@@ -21,8 +21,8 @@ function Navbar() {
         </Link>
 
         {/* Cart */}
-        <a
-          href="/cart"
+        <Link
+          to="/cart"
           className="relative"
         >
           <h3 className="font-semibold text-black">Cart 🛒</h3>
@@ -32,7 +32,7 @@ function Navbar() {
               {getCartItemCount()}
             </span>
           )}
-        </a>
+        </Link>
 
       </div>
     </nav>

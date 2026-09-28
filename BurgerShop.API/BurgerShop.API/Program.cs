@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("ReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
+        policy.WithOrigins("http://localhost:5173", "https://burger-shop-blond.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
